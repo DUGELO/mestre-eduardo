@@ -1,6 +1,6 @@
 # Landing page - Mestre Eduardo Oliveira
 
-Landing page estática e responsiva para captação de clientes de obras e reformas no Distrito Federal e em toda a RIDE-DF.
+Landing page estática e responsiva para captação de clientes de obras e reformas, com foco principal em Águas Lindas de Goiás e nas regiões mais procuradas de Brasília. Demais localidades da RIDE-DF aparecem como cobertura mediante consulta.
 
 ## Estratégia aplicada
 

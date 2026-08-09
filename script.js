@@ -51,13 +51,14 @@ document.querySelector('.cookie-reject')?.addEventListener('click', () => setCon
 document.querySelector('.privacy-settings')?.addEventListener('click', openConsentSettings);
 
 videoToggle?.addEventListener('click', async () => {
+  const iconUse = videoToggle.querySelector('use');
   if (video.paused) {
     await video.play();
-    videoToggle.textContent = '‖';
+    iconUse?.setAttribute('href', '#icon-pause');
     videoToggle.setAttribute('aria-label', 'Pausar animação');
   } else {
     video.pause();
-    videoToggle.textContent = '▶';
+    iconUse?.setAttribute('href', '#icon-play');
     videoToggle.setAttribute('aria-label', 'Reproduzir animação');
   }
 });
@@ -98,7 +99,7 @@ document.querySelector('#lead-form')?.addEventListener('submit', (event) => {
     coverage_group: 'ride_df'
   });
 
-  window.open(`https://wa.me/5561981751579?text=${encodeURIComponent(message)}`, '_blank', 'noopener');
+  window.open(`https://wa.me/5561981033458?text=${encodeURIComponent(message)}`, '_blank', 'noopener');
 });
 
 document.querySelector('#year').textContent = new Date().getFullYear();
