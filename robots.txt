@@ -1,2 +1,4 @@
 User-agent: *
 Allow: /
+
+Sitemap: https://mestreeduardo.com.br/sitemap.xml
